@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(images/hindi.jpg);
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    position: relative;
+
+}
+
+.box {
+    height: 644px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 80vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    padding-top: 10px;
+    background-color: rgba(23, 23, 23, 0.2);
+}
+
+.intro {
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 20px;
+    font-size: large;
+}
+
+.intro1 {
+    font-size: larger;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.email input {
+    padding: 15px 151px 15px 15px;
+    border-radius: 4px;
+    color: white;
+    background-color: rgba(23, 23, 23, 0.6);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+
+.btn {
+    padding: 5px 15px;
+    font-weight: 800;
+    font-size: 15px;
+    color: white;
+    background-color: rgba(23, 23, 23, 0.6);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 16px 24px #00466f;
+}
+
+.english:hover {
+    box-shadow: 0 16px 24px #595a5a;
+}
+
+.blue-login {
+    background-color: #0086D4;
+}
+
+.blue-email {
+    background-color: #0086D4;
+    color: white;
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.premium {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background: radial-gradient(51.39% 511.66% at 47.68% -217.91%, #ff9900 0%, #e50914 17.27%, #0e1b4f 79.44%, #000413 100%);
+    box-shadow: 0px -8px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    margin: 0 74px;
+    color: white;
+    padding-top: 5px;
+
+}
+
+.plans div {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 0;
+    padding-left: 32px;
+}
+
+.plans a {
+    color: #0086D4;
+    font-weight: 500;
+    gap: 8px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    color: white;
+    padding: 55px;
+}
+
+.firstimg {
+    position: relative;
+}
+
+.firstimg img {
+    width: 600px;
+    position: relative;
+    z-index: 10;
+
+}
+
+.firstimg video {
+    height: 248px;
+    width: 610px;
+    position: absolute;
+    top: 95px;
+    right: 0;
+}
+
+section.first>div :nth-child(1) {
+    color: #0086D4;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+}
+
+.separation {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+}
+
+.second {
+    background-image: url(images/6.jpg);
+    background-position: top right;
+    background-size: max(1200px, 85vw);
+    background-repeat: no-repeat;
+    height: 560px;
+    position: relative;
+}
+
+.second-intro {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    color: white;
+    padding: 55px;
+    padding-top: 140px;
+}
+
+.rent {
+    color: #0086D4;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.rent2 {
+    font-size: 24px;
+}
+
+.rent3 {
+    padding-top: 35px;
+}
+
+#fourthvideo {
+    height: 207px;
+    width: 605px;
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+
+.sixthimg {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-left: 180px;
+}
+
+.image-row {
+    display: flex;
+    gap: 10px;
+}
+
+.image-row img {
+    max-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0 8px 12px #00466f;
+    cursor: pointer;
+}
+
+.image-row img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 16px 24px #00466f;
+}
+
+.seventh h1 {
+    padding-top: 20px;
+    font-size: 48px;
+    margin: 20px;
+}
+
+.seventh {
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.seventhbox {
+    font-size: x-large;
+    max-width: 75vw;
+    margin: 8px auto;
+    background-color: rgb(45, 45, 45);
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.seventhbox:hover {
+    transform: scale(1.03);
+    box-shadow: 0 16px 24px #595a5a;
+}
+
+.intro2 {
+    padding: 40px;
+}
+
+.eightlist {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    list-style-type: none;
+    padding: 75px;
+    padding-bottom: 40px;
+    color: white;
+    max-width: 75vw;
+    margin: auto;
+    text-decoration: underline;
+}
+
+.eightlist li:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.eng {
+    max-width: 75vw;
+    margin: auto;
+    padding-bottom: 20px;
+    color: white
+}
+
+.eng>div {
+    color: #0086D4;
+    padding-top: 10px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: rgb(45, 45, 45);
+}
